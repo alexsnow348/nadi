@@ -6,33 +6,30 @@ export default class App extends React.Component {
        return (
            <TabBar>
              <TabBar.Item
-                 icon={require('./assets/icon.png')}
-                 selectedIcon={require('./assets/icon.png')}
+                 icon={require('./assets/contrast.png')}
+                 selectedIcon={require('./assets/contrast.png')}
                  title="Tab1"
-                 screenBackgroundColor={{ backgroundColor: '#FFF' }}
+                 screenBackgroundColor={{ backgroundColor: '#e9e3e3' }}
              >
                <View>
-                   {
-                     <Text>Wut Hmone Hnin Hlaing</Text>
-
-                   }
+                   {/*Page Content*/}
                </View>
              </TabBar.Item>
              <TabBar.Item
-                 icon={require('./assets/icon.png')}
-                 selectedIcon={require('./assets/icon.png')}
+                 icon={require('./assets/sliders.png')}
+                 selectedIcon={require('./assets/sliders.png')}
                  title="Tab2"
-                 screenBackgroundColor={{ backgroundColor: '#F08080' }}
+                 screenBackgroundColor={{ backgroundColor: '#e9e3e3' }}
              >
                  <View>
                      {/*Page Content*/}
                  </View>
              </TabBar.Item>
              <TabBar.Item
-                 icon={require('./assets/icon.png')}
-                 selectedIcon={require('./assets/icon.png')}
+                 icon={require('./assets/brightness.png')}
+                 selectedIcon={require('./assets/brightness.png')}
                  title="Tab3"
-                 screenBackgroundColor={{ backgroundColor: '#485d72' }}
+                 screenBackgroundColor={{ backgroundColor: '#e9e3e3' }}
              >
                <View>
                    {/*Page Content*/}
